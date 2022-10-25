@@ -10,7 +10,7 @@ let phrases = [
   { text: 'посмотреть трейлер сериала и заодно первый сезон', image: 'https://code.s3.yandex.net/web-code/procrastinate/9.png' },
   { text: 'проверить непрочитанное в Telegram-каналах', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' },
   { text: 'просидеть всеь день в тик токе', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' },
-  { text: 'сходить в кфс', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' }
+  { text: 'сходить в кфс', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' 
 ];
 
 function getRandomElement(arr) {
