@@ -1,0 +1,86 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 0px solid black;
+  background-image:url(aesthetic.jpg);
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  background: #64e098;
+  display: table;
+  margin: 20px auto;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+body{
+  background: #c485ff;
+  background-image: -webkit-radial-gradient(cover, rgb(106, 189, 95),#ffffff	);
+  background-image: -moz-radial-gradient(cover, #ffffff, #2478f7);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 130px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:bold;
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+	border: 1px solid rgb(107, 212, 147);
+	box-shadow: 0 1px 0 rgba(146, 219, 128, 0.9) inset, 0 1px 3px rgb(140, 218, 172);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:1px;
+	text-decoration: none; 
+	color:rgb(17, 68, 20);
+	text-shadow: 0 1px rgb(137, 218, 148);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(33, 121, 40);
+  	border: 1px solid #ccc;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #277548;
+} 
+
+
+
